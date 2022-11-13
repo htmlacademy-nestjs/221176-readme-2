@@ -1,7 +1,7 @@
 # Личный проект «Readme»
 
 * Студент: [Александр Тарасюк](https://up.htmlacademy.ru/nodejs-2/2/user/221176).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Зубко](https://htmlacademy.ru/profile/whatislove).
 
 ---
 
