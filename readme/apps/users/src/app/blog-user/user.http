@@ -1,0 +1,8 @@
+POST http://localhost:3333/api/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "ai@ai.ai",
+  "name": "Ivan Ivanov",
+  "password": "123456"
+}
