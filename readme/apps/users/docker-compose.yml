@@ -4,6 +4,11 @@ services:
     image: mongo
     restart: always
     container_name: mongodb
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongo localhost:27017/readme-users --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 5
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: test
